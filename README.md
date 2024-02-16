@@ -3,10 +3,9 @@ This project implements a command-line course planner application in C++, utiliz
 
 Evaluation:
 
-Data Structure:	Time Complexity
-Vector:	O(n^2)
-Hash Table:	O(n)
-Binary Tree:	O(n log n)
+Vector: O(n^2)
+Hash Table: O(n)
+Binary Tree: O(n log n)
 
 For the vector data structure, the worst-case running time for reading the file and creating course objects is O(n * m), where ‘n’ is the number of courses stored and ‘m’ os the average number of tokens per line. In comparison, the worst-case running time of the hash table and binary tree data structures in O(n). however, because all three data structures hold the same set of course objects, their memory use remains O(n). In terms of speed, if the average amount of tokens per line is minimal i comparison to the overall number of courses, the hash table or binary tree may be more efficient alternatives.
 
